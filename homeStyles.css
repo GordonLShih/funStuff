@@ -1,0 +1,112 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    background-color: #b8b8b8;
+    flex-direction: column;
+    display: flex;
+}
+
+.headerText{
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 50px;
+    font-family: Copperplate;
+}
+
+.topDiv{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+}
+
+.topImage{
+    height: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+}
+
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.aboutText{
+    width: 70%;
+    font-size: 26px;
+}
+
+.aboutButton{
+    margin-bottom: 50px;
+}
+
+.recipeText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.recipeDiv{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipeDetailDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.recipeDetailText{
+    width: 80%;
+    text-align: center;
+}
+
+.recipeImage{
+    width: 100%;
+}
+
+.viewRecipeButton{
+    margin-bottom: 50px;
+}
+
+.footerDiv{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.footerTextFirst{
+    font-family: Copperplate;
+    font-size: 22px;
+    padding-left: 20%;
+}
+
+.footerTextSmall{
+    font-size: 18px;
+    padding-left: 20%;
+}
